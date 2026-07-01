@@ -10,6 +10,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/base.css">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<style>
+  .course-detail { margin-top: 1rem; border-top: 1px solid rgba(0,0,0,0.08); padding-top: 0.75rem; }
+  .course-detail > summary { cursor: pointer; font-weight: 600; color: var(--kōura, #c1712f); list-style: none; padding: 0.25rem 0; }
+  .course-detail > summary::-webkit-details-marker { display: none; }
+  .course-detail[open] > summary { margin-bottom: 0.75rem; }
+  .lesson { max-width: 70ch; }
+  .lesson h4 { font-family: "Fraunces", serif; font-size: var(--text-lg, 1.15rem); margin-top: 1.25rem; margin-bottom: 0.4rem; color: var(--muku, #2d2d2d); }
+  .lesson p, .lesson li { line-height: 1.55; }
+  .lesson ul, .lesson ol { padding-left: 1.25rem; }
+  .lesson li { margin-bottom: 0.35rem; }
+</style>
 
 </head>
 <body>
@@ -43,7 +54,7 @@
   <div class="wrap">
     <p class="eyebrow" data-i18n="cur.eyebrow">Curriculum · Ngā akoranga</p>
     <h1 style="font-size:var(--text-3xl); max-width:22ch;" data-i18n="cur.h1">Five courses. Every one grounded in Te Tiriti.</h1>
-    <p style="max-width:70ch;" data-i18n="cur.intro.full">Each course is free, short (60–90 mins), delivered through <a href="https://thekiwidialectic.substack.com/">The Kiwi Dialectic</a>, and comes with a downloadable pack for marae, kura and iwi orgs. Do them in order or dip in wherever your rohe needs it.</p>
+    <p style="max-width:70ch;" data-i18n="cur.intro.full">Each course is free, short (60–90 mins), read straight from this page — no login, no algorithm, no gatekeepers. Every module is CC BY-SA 4.0 and forkable from our <a href="https://github.com/robertmccallnz/ai-warrior-te-pa">GitHub repo</a>. Do them in order or dip in wherever your rohe needs it.</p>
   </div>
 </section>
 
@@ -54,7 +65,23 @@
       <div class="course-body">
         <h3 data-i18n="cur.c1.title">AI Literacy Basics — He aha te AI?</h3>
         <p data-i18n="cur.c1.body">What is a large language model, actually? Where does the data come from? Whose worldview is baked into the outputs? A plain-language demystification for whānau of any age.</p>
-        <p class="course-meta" data-i18n="cur.c1.meta">Article 1 · Kāwanatanga · 60 min · <a href="https://thekiwidialectic.substack.com/">Enrol on Substack →</a></p>
+        <p class="course-meta" data-i18n="cur.c1.meta">Article 1 · Kāwanatanga · 60 min · Free · CC BY-SA 4.0</p>
+        <details class="course-detail">
+          <summary data-i18n="cur.c1.open">Open lesson →</summary>
+          <div class="lesson">
+            <h4 data-i18n="cur.c1.l1.h">1 · A machine that guesses the next word</h4>
+            <p data-i18n="cur.c1.l1.p">A large language model does not "understand" anything. It is a very expensive next-word guesser, trained by having billions of sentences shovelled through it until its guesses feel fluent. When you ask it a question, it is not reasoning — it is completing a pattern it has already seen many times.</p>
+            <h4 data-i18n="cur.c1.l2.h">2 · Whose sentences did it eat?</h4>
+            <p data-i18n="cur.c1.l2.p">Mostly English, mostly American, mostly written by the kind of people who write on the open internet. That is the worldview baked in. When it sounds "neutral", it is not neutral — it is speaking with the accent of the archive it was fed. Te reo Māori, when it appears at all, is scraped without consent from our marae, our researchers, our tamariki's homework help sites.</p>
+            <h4 data-i18n="cur.c1.l3.h">3 · Why this is a Tiriti question</h4>
+            <p data-i18n="cur.c1.l3.p">Article 1 gave the Crown kāwanatanga — the right to govern, not the right to take. An AI system trained on our reo and our whakaaro without consent is a governance failure. Kāwanatanga without tino rangatiratanga is theft with paperwork.</p>
+            <h4 data-i18n="cur.c1.l4.h">Whakaaro — reflection</h4>
+            <ul>
+              <li data-i18n="cur.c1.q1">Whose voice does your favourite AI tool sound like when you close your eyes?</li>
+              <li data-i18n="cur.c1.q2">If a machine repeats our reo without our permission, is that revival or extraction?</li>
+            </ul>
+          </div>
+        </details>
       </div>
     </div>
     <div id="c2" class="course-item">
@@ -62,7 +89,28 @@
       <div class="course-body">
         <h3 data-i18n="cur.c2.title">Deepfakes & Disinformation — Te pōhēhē kikokiko-kore</h3>
         <p data-i18n="cur.c2.body">How to spot synthetic video and voice. Reverse-image search, provenance tools, and a decision tree for whānau group chats. Includes a downloadable checklist for kaumātua.</p>
-        <p class="course-meta" data-i18n="cur.c2.meta">Article 3 · Ōritetanga · 75 min · <a href="https://thekiwidialectic.substack.com/">Enrol →</a></p>
+        <p class="course-meta" data-i18n="cur.c2.meta">Article 3 · Ōritetanga · 75 min · Free · CC BY-SA 4.0</p>
+        <details class="course-detail">
+          <summary data-i18n="cur.c2.open">Open lesson →</summary>
+          <div class="lesson">
+            <h4 data-i18n="cur.c2.l1.h">1 · The lie is now cheap</h4>
+            <p data-i18n="cur.c2.l1.p">A convincing deepfake used to cost a state intelligence agency. Now it costs a teenager an afternoon. That is the shift. The tools that let whānau make waiata videos are the same tools that let a stranger put a kuia's face on a scam ad. Being useful and being weaponisable are not opposites — they are the same feature.</p>
+            <h4 data-i18n="cur.c2.l2.h">2 · Four quick checks before you share</h4>
+            <ul>
+              <li data-i18n="cur.c2.l2.i1"><strong>Source.</strong> Where did this land in front of you? A named journalist, a marae page, or an anonymous account with 200 followers and a flag emoji?</li>
+              <li data-i18n="cur.c2.l2.i2"><strong>Reverse image.</strong> Right-click, Google Lens or TinEye. If the same face is on ten different stories, it is stock or synthetic.</li>
+              <li data-i18n="cur.c2.l2.i3"><strong>Hands, ears, teeth, jewellery.</strong> Generative models still get these wrong. Look close.</li>
+              <li data-i18n="cur.c2.l2.i4"><strong>Audio.</strong> Cloned voices lose the breath between words. Real kōrero has hesitation, real hesitation.</li>
+            </ul>
+            <h4 data-i18n="cur.c2.l3.h">3 · Ōritetanga means equal protection from lies</h4>
+            <p data-i18n="cur.c2.l3.p">Article 3 promised us the same rights as any other citizen. In practice, disinformation targets our people harder — anti-Māori narratives, health misinformation aimed at whānau, fake "iwi" accounts stirring conflict. Ōritetanga in 2026 means the same access to truth. That means we teach each other.</p>
+            <h4 data-i18n="cur.c2.l4.h">Whakaaro — reflection</h4>
+            <ul>
+              <li data-i18n="cur.c2.q1">Who in your whānau is most likely to be targeted, and who is best placed to teach them?</li>
+              <li data-i18n="cur.c2.q2">What is the last thing you shared without checking? What would it cost to check next time?</li>
+            </ul>
+          </div>
+        </details>
       </div>
     </div>
     <div id="c3" class="course-item">
@@ -70,7 +118,38 @@
       <div class="course-body">
         <h3 data-i18n="cur.c3.title">Data Sovereignty — Ko wai te rangatira o ō tātou raraunga?</h3>
         <p data-i18n="cur.c3.body">Whakapapa, waiata, and reo as taonga under Article 2. The <a href="https://www.temanararaunga.maori.nz/">Te Mana Raraunga</a> principles applied in practice. A checklist for iwi organisations negotiating with tech vendors.</p>
-        <p class="course-meta" data-i18n="cur.c3.meta">Article 2 · Tino Rangatiratanga · 90 min · <a href="https://thekiwidialectic.substack.com/">Enrol →</a></p>
+        <p class="course-meta" data-i18n="cur.c3.meta">Article 2 · Tino Rangatiratanga · 90 min · Free · CC BY-SA 4.0</p>
+        <details class="course-detail">
+          <summary data-i18n="cur.c3.open">Open lesson →</summary>
+          <div class="lesson">
+            <h4 data-i18n="cur.c3.l1.h">1 · Data is not oil. Data is whakapapa.</h4>
+            <p data-i18n="cur.c3.l1.p">Silicon Valley calls data "the new oil". That framing gives you permission to drill. But our data — whakapapa, waiata, reo, health records, land maps, iwi rolls — is not a resource to be pumped. It is relationship. It carries obligation. Who holds it, holds a duty of care, not a licence to sell.</p>
+            <h4 data-i18n="cur.c3.l2.h">2 · Te Mana Raraunga in plain speech</h4>
+            <ul>
+              <li data-i18n="cur.c3.l2.i1"><strong>Rangatiratanga.</strong> Māori decide about Māori data. Full stop.</li>
+              <li data-i18n="cur.c3.l2.i2"><strong>Whakapapa.</strong> Data has origins. It stays connected to the people it came from.</li>
+              <li data-i18n="cur.c3.l2.i3"><strong>Whanaungatanga.</strong> Data governance is relational, not transactional.</li>
+              <li data-i18n="cur.c3.l2.i4"><strong>Kotahitanga.</strong> Collective benefit trumps individual convenience.</li>
+              <li data-i18n="cur.c3.l2.i5"><strong>Manaakitanga.</strong> Data must not do harm — including harm to those not yet born.</li>
+              <li data-i18n="cur.c3.l2.i6"><strong>Kaitiakitanga.</strong> Someone is always the guardian. Name them.</li>
+            </ul>
+            <h4 data-i18n="cur.c3.l3.h">3 · Six questions to ask any vendor</h4>
+            <ol>
+              <li data-i18n="cur.c3.l3.q1">Where will our data physically live, and under which country's jurisdiction?</li>
+              <li data-i18n="cur.c3.l3.q2">Will it be used to train models we do not own?</li>
+              <li data-i18n="cur.c3.l3.q3">Who has read-access on your side, and is any of it offshore?</li>
+              <li data-i18n="cur.c3.l3.q4">Can we withdraw everything, in a usable format, within 30 days?</li>
+              <li data-i18n="cur.c3.l3.q5">Do you accept our tikanga around tapu material as a contract term, not a courtesy?</li>
+              <li data-i18n="cur.c3.l3.q6">If you are acquired, does our data transfer with you or come home?</li>
+            </ol>
+            <p data-i18n="cur.c3.l3.note">If a vendor cannot answer these plainly in writing, they are not ready to work with iwi.</p>
+            <h4 data-i18n="cur.c3.l4.h">Whakaaro — reflection</h4>
+            <ul>
+              <li data-i18n="cur.c3.q1">What data does your marae, hapū or iwi already hold that a vendor would want tomorrow?</li>
+              <li data-i18n="cur.c3.q2">Who is the named kaitiaki? If you cannot name them, that is the first job.</li>
+            </ul>
+          </div>
+        </details>
       </div>
     </div>
     <div id="c4" class="course-item">
@@ -78,7 +157,32 @@
       <div class="course-body">
         <h3 data-i18n="cur.c4.title">Algorithmic Colonialism — Te tāmi a te pūmanawa</h3>
         <p data-i18n="cur.c4.body">How recommendation engines, moderation policies and monetisation choke Māori voice. Case studies from X, Meta and TikTok. What to do when you're shadow-banned.</p>
-        <p class="course-meta" data-i18n="cur.c4.meta">Article 2 · Tino Rangatiratanga · 75 min · <a href="https://thekiwidialectic.substack.com/">Enrol →</a></p>
+        <p class="course-meta" data-i18n="cur.c4.meta">Article 2 · Tino Rangatiratanga · 75 min · Free · CC BY-SA 4.0</p>
+        <details class="course-detail">
+          <summary data-i18n="cur.c4.open">Open lesson →</summary>
+          <div class="lesson">
+            <h4 data-i18n="cur.c4.l1.h">1 · The platform is the new state-form</h4>
+            <p data-i18n="cur.c4.l1.p">Bakunin, 150 years ago, described a state that governs from above, answerable to no one it manages. He did not know he was describing X, Meta and TikTok. The algorithmic platform is the pūmanawa — the machine — that decides who is heard, who is throttled, and whose reo simply does not monetise well enough to survive.</p>
+            <h4 data-i18n="cur.c4.l2.h">2 · Three ways the choke happens</h4>
+            <ul>
+              <li data-i18n="cur.c4.l2.i1"><strong>Reach throttling.</strong> Posts using te reo, or naming police violence against Māori, get shown to fewer of your own followers. This is not a bug.</li>
+              <li data-i18n="cur.c4.l2.i2"><strong>Moderation asymmetry.</strong> "Kill all colonisers" gets removed. "Kill all Māori" often does not. The rules are written elsewhere by people who do not live here.</li>
+              <li data-i18n="cur.c4.l2.i3"><strong>Monetisation death.</strong> Educational content about Te Tiriti, colonisation, or Palestine gets demonetised — so it stops being made.</li>
+            </ul>
+            <h4 data-i18n="cur.c4.l3.h">3 · What to do when you are throttled</h4>
+            <ul>
+              <li data-i18n="cur.c4.l3.i1">Cross-post to a platform you do not rent from — a marae site, a mailing list, a rhizome node.</li>
+              <li data-i18n="cur.c4.l3.i2">Screenshot the reach numbers. Patterns are evidence.</li>
+              <li data-i18n="cur.c4.l3.i3">Build a whānau network of amplifiers so your reo does not rely on a single algorithm's mood.</li>
+              <li data-i18n="cur.c4.l3.i4">Stop paying rent to platforms that hate you. Course 05 will show you how.</li>
+            </ul>
+            <h4 data-i18n="cur.c4.l4.h">Whakaaro — reflection</h4>
+            <ul>
+              <li data-i18n="cur.c4.q1">If tomorrow X banned every Māori account, would your kaupapa survive? What would you lose first?</li>
+              <li data-i18n="cur.c4.q2">Whose infrastructure is your organising actually built on?</li>
+            </ul>
+          </div>
+        </details>
       </div>
     </div>
     <div id="c5" class="course-item">
@@ -86,7 +190,33 @@
       <div class="course-body">
         <h3 data-i18n="cur.c5.title">Whānau Digital Pā — Te hanga i tō pā tuihono</h3>
         <p data-i18n="cur.c5.body">Practical, hands-on: set up your marae's own website, secure comms, mailing list and rhizome node. Zero cost, forkable templates, no reliance on colonial platforms.</p>
-        <p class="course-meta" data-i18n="cur.c5.meta">Articles 1, 2, 3 · 90 min · <a href="https://thekiwidialectic.substack.com/">Enrol →</a></p>
+        <p class="course-meta" data-i18n="cur.c5.meta">Articles 1, 2, 3 · 90 min · Free · CC BY-SA 4.0</p>
+        <details class="course-detail">
+          <summary data-i18n="cur.c5.open">Open lesson →</summary>
+          <div class="lesson">
+            <h4 data-i18n="cur.c5.l1.h">1 · A pā is infrastructure</h4>
+            <p data-i18n="cur.c5.l1.p">A pā was never just walls. It was food, water, defence, memory, decision-making — everything a people needed to remain a people. A pā tuihono is the same: your own website, your own list of whānau contacts, your own back channel, your own archive. Not because Meta is coming to burn it down tomorrow — but because it might, and rangatiratanga does not depend on the goodwill of foreign corporations.</p>
+            <h4 data-i18n="cur.c5.l2.h">2 · The four stones of a digital pā</h4>
+            <ul>
+              <li data-i18n="cur.c5.l2.i1"><strong>Your own site.</strong> Static HTML on GitHub Pages costs $0 and cannot be deplatformed by an algorithm. Fork our repo, change the words, publish.</li>
+              <li data-i18n="cur.c5.l2.i2"><strong>Your own list.</strong> A plain email list you control. Not a Facebook group. Not a WhatsApp broadcast someone else owns.</li>
+              <li data-i18n="cur.c5.l2.i3"><strong>Your own back channel.</strong> Signal for kōrero that must not leak. Free, encrypted, open source.</li>
+              <li data-i18n="cur.c5.l2.i4"><strong>Your own rhizome node.</strong> A JSON file that lists which other marae, kaupapa and researchers you are connected to. Federation, not dependency.</li>
+            </ul>
+            <h4 data-i18n="cur.c5.l3.h">3 · Start in an afternoon</h4>
+            <ol>
+              <li data-i18n="cur.c5.l3.s1">Fork <a href="https://github.com/robertmccallnz/ai-warrior-te-pa">this repo</a> on GitHub.</li>
+              <li data-i18n="cur.c5.l3.s2">Edit the text of index.html — put your marae name, your kaupapa, your reo.</li>
+              <li data-i18n="cur.c5.l3.s3">Turn on GitHub Pages in settings. Your pā is live at your-name.github.io.</li>
+              <li data-i18n="cur.c5.l3.s4">Add your rhizome node to the shared JSON. Tell us you are up.</li>
+            </ol>
+            <h4 data-i18n="cur.c5.l4.h">Whakaaro — reflection</h4>
+            <ul>
+              <li data-i18n="cur.c5.q1">If the pā is infrastructure, who in your whānau is the digital kaitiaki? Do they know that is the role?</li>
+              <li data-i18n="cur.c5.q2">He aha tō whakaaro — what would it change if every marae in your rohe had its own site by next Matariki?</li>
+            </ul>
+          </div>
+        </details>
       </div>
     </div>
   </div>
@@ -97,9 +227,9 @@
 <section class="section">
   <div class="wrap">
     <div class="panel">
-      <h2 style="color:var(--kōura)" data-i18n="cur.feed.title">Course feed — Ngā mea hou</h2>
-      <p data-i18n="cur.feed.body">New modules drop monthly. Subscribe once and every course lands in your inbox with the full media kit.</p>
-      <a href="https://thekiwidialectic.substack.com/" class="btn btn-primary" style="border-color:var(--kōura); background:var(--kōura); color:var(--muku);" data-i18n="cur.feed.cta">Subscribe on The Kiwi Dialectic →</a>
+      <h2 style="color:var(--kōura)" data-i18n="cur.feed.title">Open source, open education — Ngā mea hou</h2>
+      <p data-i18n="cur.feed.body">New modules drop as they are ready. Everything lives on this page, free to read, forkable, CC BY-SA 4.0. Take it, translate it, teach it — just keep it free.</p>
+      <a href="https://github.com/robertmccallnz/ai-warrior-te-pa" class="btn btn-primary" style="border-color:var(--kōura); background:var(--kōura); color:var(--muku);" data-i18n="cur.feed.cta">Fork on GitHub →</a>
     </div>
   </div>
 </section>
