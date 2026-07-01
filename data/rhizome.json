@@ -1,102 +1,491 @@
 {
   "nodes": [
-    { "id": "core", "label": "Te Pāti Māori", "group": "core", "size": 42, "url": "https://www.maoriparty.org.nz/" },
-
-    { "id": "leader-waititi", "label": "Rawiri Waititi\n(Co-leader, Waiariki)", "group": "leader", "url": "https://www.maoriparty.org.nz/our-people" },
-    { "id": "leader-ngarewapacker", "label": "Debbie Ngarewa-Packer\n(Co-leader, Te Tai Hauāuru)", "group": "leader", "url": "https://www.maoriparty.org.nz/our-people" },
-    { "id": "mp-maipiclarke", "label": "Hana-Rāwhiti\nMaipi-Clarke (Hauraki-Waikato)", "group": "mp", "url": "https://www.maoriparty.org.nz/our-people" },
-    { "id": "mp-kaipara", "label": "Oriini Kaipara\n(Tāmaki Makaurau)", "group": "mp", "url": "https://www.maoriparty.org.nz/our-people" },
-
-    { "id": "iwi-tainui", "label": "Waikato-Tainui", "group": "iwi", "url": "https://www.waikatotainui.com/" },
-    { "id": "iwi-ngapuhi", "label": "Ngāpuhi", "group": "iwi", "url": "https://www.ngapuhi.iwi.nz/" },
-    { "id": "iwi-ngatiporou", "label": "Ngāti Porou", "group": "iwi", "url": "https://ngatiporou.com/" },
-    { "id": "iwi-tuhoe", "label": "Ngāi Tūhoe", "group": "iwi", "url": "https://www.ngaituhoe.iwi.nz/" },
-    { "id": "iwi-taranaki", "label": "Ngāti Ruanui / Taranaki", "group": "iwi", "url": "https://ngatiruanui.iwi.nz/" },
-    { "id": "iwi-ngaitahu", "label": "Ngāi Tahu", "group": "iwi", "url": "https://ngaitahu.iwi.nz/" },
-
-    { "id": "kaupapa-tiriti", "label": "Te Tiriti o Waitangi", "group": "kaupapa", "url": "https://nzhistory.govt.nz/politics/treaty/the-treaty-in-brief" },
-    { "id": "kaupapa-rangatiratanga", "label": "Tino Rangatiratanga", "group": "kaupapa" },
-    { "id": "kaupapa-tikanga", "label": "Tikanga Māori", "group": "kaupapa" },
-    { "id": "kaupapa-whenua", "label": "Whenua & Wai", "group": "kaupapa" },
-    { "id": "kaupapa-mokopuna", "label": "Mokopuna Decisions", "group": "kaupapa" },
-
-    { "id": "policy-constitutional", "label": "Constitutional\nTransformation", "group": "policy", "url": "https://www.maoriparty.org.nz/policy" },
-    { "id": "policy-kai", "label": "Kai Sovereignty", "group": "policy", "url": "https://www.scoop.co.nz/stories/PA2309/S00072/te-pati-maori-announce-kai-sovereignty-policy.htm" },
-    { "id": "policy-justice", "label": "Māori-led Justice", "group": "policy", "url": "https://www.maoriparty.org.nz/policy" },
-    { "id": "policy-neutrality", "label": "Military Neutrality", "group": "policy", "url": "https://www.maoriparty.org.nz/policy" },
-    { "id": "policy-wealth", "label": "Wealth Redistribution", "group": "policy", "url": "https://www.maoriparty.org.nz/policy" },
-    { "id": "policy-education", "label": "Māori-led Education", "group": "policy", "url": "https://www.maoriparty.org.nz/education_training" },
-
-    { "id": "campaign-social", "label": "Social Media Toolkit", "group": "campaign", "url": "campaigns.html#social" },
-    { "id": "campaign-street", "label": "Street Campaigns", "group": "campaign", "url": "campaigns.html#street" },
-    { "id": "campaign-mediakit", "label": "Media Kit", "group": "campaign", "url": "campaigns.html#mediakit" },
-    { "id": "campaign-online", "label": "Online Campaigns", "group": "campaign", "url": "campaigns.html#online" },
-
-    { "id": "course-1", "label": "Course 1:\nAI Literacy Basics", "group": "course", "url": "curriculum.html#c1" },
-    { "id": "course-2", "label": "Course 2:\nDeepfakes & Disinfo", "group": "course", "url": "curriculum.html#c2" },
-    { "id": "course-3", "label": "Course 3:\nData Sovereignty", "group": "course", "url": "curriculum.html#c3" },
-    { "id": "course-4", "label": "Course 4:\nAlgorithmic Colonialism", "group": "course", "url": "curriculum.html#c4" },
-    { "id": "course-5", "label": "Course 5:\nWhānau Digital Pā", "group": "course", "url": "curriculum.html#c5" },
-
-    { "id": "fund-givealittle", "label": "Givealittle", "group": "fund", "url": "https://givealittle.co.nz/" },
-    { "id": "fund-kofi", "label": "Ko-fi", "group": "fund", "url": "https://ko-fi.com/" },
-    { "id": "fund-substack", "label": "The Kiwi Dialectic\n(Substack)", "group": "fund", "url": "https://thekiwidialectic.substack.com/" }
+    {
+      "id": "core",
+      "label": "Te Pāti Māori",
+      "group": "core",
+      "size": 42,
+      "url": "https://www.maoriparty.org.nz/"
+    },
+    {
+      "id": "leader-waititi",
+      "label": "Rawiri Waititi\n(Co-leader, Waiariki)",
+      "group": "leader",
+      "url": "https://www.maoriparty.org.nz/our-people"
+    },
+    {
+      "id": "leader-ngarewapacker",
+      "label": "Debbie Ngarewa-Packer\n(Co-leader, Te Tai Hauāuru)",
+      "group": "leader",
+      "url": "https://www.maoriparty.org.nz/our-people"
+    },
+    {
+      "id": "mp-maipiclarke",
+      "label": "Hana-Rāwhiti\nMaipi-Clarke (Hauraki-Waikato)",
+      "group": "mp",
+      "url": "https://www.maoriparty.org.nz/our-people"
+    },
+    {
+      "id": "mp-kaipara",
+      "label": "Oriini Kaipara\n(Tāmaki Makaurau)",
+      "group": "mp",
+      "url": "https://www.maoriparty.org.nz/our-people"
+    },
+    {
+      "id": "iwi-tainui",
+      "label": "Waikato-Tainui",
+      "group": "iwi",
+      "url": "https://www.waikatotainui.com/"
+    },
+    {
+      "id": "iwi-ngapuhi",
+      "label": "Ngāpuhi",
+      "group": "iwi",
+      "url": "https://www.ngapuhi.iwi.nz/"
+    },
+    {
+      "id": "iwi-ngatiporou",
+      "label": "Ngāti Porou",
+      "group": "iwi",
+      "url": "https://ngatiporou.com/"
+    },
+    {
+      "id": "iwi-tuhoe",
+      "label": "Ngāi Tūhoe",
+      "group": "iwi",
+      "url": "https://www.ngaituhoe.iwi.nz/"
+    },
+    {
+      "id": "iwi-taranaki",
+      "label": "Ngāti Ruanui / Taranaki",
+      "group": "iwi",
+      "url": "https://ngatiruanui.iwi.nz/"
+    },
+    {
+      "id": "iwi-ngaitahu",
+      "label": "Ngāi Tahu",
+      "group": "iwi",
+      "url": "https://ngaitahu.iwi.nz/"
+    },
+    {
+      "id": "kaupapa-tiriti",
+      "label": "Te Tiriti o Waitangi",
+      "group": "kaupapa",
+      "url": "https://nzhistory.govt.nz/politics/treaty/the-treaty-in-brief"
+    },
+    {
+      "id": "kaupapa-rangatiratanga",
+      "label": "Tino Rangatiratanga",
+      "group": "kaupapa"
+    },
+    {
+      "id": "kaupapa-tikanga",
+      "label": "Tikanga Māori",
+      "group": "kaupapa"
+    },
+    {
+      "id": "kaupapa-whenua",
+      "label": "Whenua & Wai",
+      "group": "kaupapa"
+    },
+    {
+      "id": "kaupapa-mokopuna",
+      "label": "Mokopuna Decisions",
+      "group": "kaupapa"
+    },
+    {
+      "id": "policy-constitutional",
+      "label": "Constitutional\nTransformation",
+      "group": "policy",
+      "url": "https://www.maoriparty.org.nz/policy"
+    },
+    {
+      "id": "policy-kai",
+      "label": "Kai Sovereignty",
+      "group": "policy",
+      "url": "https://www.scoop.co.nz/stories/PA2309/S00072/te-pati-maori-announce-kai-sovereignty-policy.htm"
+    },
+    {
+      "id": "policy-justice",
+      "label": "Māori-led Justice",
+      "group": "policy",
+      "url": "https://www.maoriparty.org.nz/policy"
+    },
+    {
+      "id": "policy-neutrality",
+      "label": "Military Neutrality",
+      "group": "policy",
+      "url": "https://www.maoriparty.org.nz/policy"
+    },
+    {
+      "id": "policy-wealth",
+      "label": "Wealth Redistribution",
+      "group": "policy",
+      "url": "https://www.maoriparty.org.nz/policy"
+    },
+    {
+      "id": "policy-education",
+      "label": "Māori-led Education",
+      "group": "policy",
+      "url": "https://www.maoriparty.org.nz/education_training"
+    },
+    {
+      "id": "campaign-social",
+      "label": "Social Media Toolkit",
+      "group": "campaign",
+      "url": "campaigns.html#social"
+    },
+    {
+      "id": "campaign-street",
+      "label": "Street Campaigns",
+      "group": "campaign",
+      "url": "campaigns.html#street"
+    },
+    {
+      "id": "campaign-mediakit",
+      "label": "Media Kit",
+      "group": "campaign",
+      "url": "campaigns.html#mediakit"
+    },
+    {
+      "id": "campaign-online",
+      "label": "Online Campaigns",
+      "group": "campaign",
+      "url": "campaigns.html#online"
+    },
+    {
+      "id": "course-1",
+      "label": "Course 1:\nAI Literacy Basics",
+      "group": "course",
+      "url": "curriculum.html#c1"
+    },
+    {
+      "id": "course-2",
+      "label": "Course 2:\nDeepfakes & Disinfo",
+      "group": "course",
+      "url": "curriculum.html#c2"
+    },
+    {
+      "id": "course-3",
+      "label": "Course 3:\nData Sovereignty",
+      "group": "course",
+      "url": "curriculum.html#c3"
+    },
+    {
+      "id": "course-4",
+      "label": "Course 4:\nAlgorithmic Colonialism",
+      "group": "course",
+      "url": "curriculum.html#c4"
+    },
+    {
+      "id": "course-5",
+      "label": "Course 5:\nWhānau Digital Pā",
+      "group": "course",
+      "url": "curriculum.html#c5"
+    },
+    {
+      "id": "fund-givealittle",
+      "label": "Givealittle",
+      "group": "fund",
+      "url": "https://givealittle.co.nz/"
+    },
+    {
+      "id": "fund-kofi",
+      "label": "Ko-fi",
+      "group": "fund",
+      "url": "https://ko-fi.com/"
+    },
+    {
+      "id": "fund-substack",
+      "label": "The Kiwi Dialectic\n(Substack)",
+      "group": "fund",
+      "url": "https://thekiwidialectic.substack.com/"
+    },
+    {
+      "id": "kin-hub",
+      "label": "International Indigenous Kin",
+      "label_mi": "Te Whānau Taketake o te Ao",
+      "group": "kaupapa",
+      "url": "rhizome.html",
+      "title": "Indigenous solidarity — Pasifika-forward. Live activity updates weekly."
+    },
+    {
+      "id": "kin-west-papua",
+      "label": "West Papua — ULMWP",
+      "label_mi": "West Papua — ULMWP",
+      "group": "kaupapa",
+      "url": "https://www.ulmwp.org/",
+      "title": "United Liberation Movement for West Papua — Melanesian sovereignty from Indonesian occupation"
+    },
+    {
+      "id": "kin-kanaky",
+      "label": "Kanaky (New Caledonia) — FLNKS",
+      "label_mi": "Kanaky — FLNKS",
+      "group": "kaupapa",
+      "url": "https://flnks.nc/",
+      "title": "Front de Libération Nationale Kanak et Socialiste — Kanak independence"
+    },
+    {
+      "id": "kin-hawaii",
+      "label": "Hawaiʻi — Kanaka ʻŌiwi",
+      "label_mi": "Hawai'i — Kanaka 'Ōiwi",
+      "group": "kaupapa",
+      "url": "https://www.oha.org/",
+      "title": "Office of Hawaiian Affairs & Mauna Kea protectors — Kanaka Maoli sovereignty"
+    },
+    {
+      "id": "kin-first-nations-au",
+      "label": "First Nations Australia",
+      "label_mi": "Ngā Iwi Taketake o Ahitereiria",
+      "group": "kaupapa",
+      "url": "https://ulurustatement.org/",
+      "title": "Uluru Statement from the Heart — First Nations sovereignty and treaty"
+    },
+    {
+      "id": "kin-turtle-island",
+      "label": "Turtle Island — Idle No More",
+      "label_mi": "Motu Honu — Idle No More",
+      "group": "kaupapa",
+      "url": "https://idlenomore.ca/",
+      "title": "Idle No More & Land Back — First Nations, Métis and Inuit sovereignty across Turtle Island"
+    },
+    {
+      "id": "kin-sapmi",
+      "label": "Sápmi — Sámi Council",
+      "label_mi": "Sápmi — Rūnanga Sámi",
+      "group": "kaupapa",
+      "url": "https://www.saamicouncil.net/",
+      "title": "Sámi Council — Sápmi cross-border indigenous parliament"
+    },
+    {
+      "id": "kin-palestine",
+      "label": "Palestine — Solidarity",
+      "label_mi": "Pāratīna — Kotahitanga",
+      "group": "kaupapa",
+      "url": "https://bdsmovement.net/",
+      "title": "BDS Movement — Palestinian indigenous solidarity"
+    }
   ],
   "edges": [
-    { "from": "core", "to": "leader-waititi" },
-    { "from": "core", "to": "leader-ngarewapacker" },
-    { "from": "core", "to": "mp-maipiclarke" },
-    { "from": "core", "to": "mp-kaipara" },
-
-    { "from": "core", "to": "kaupapa-tiriti" },
-    { "from": "core", "to": "kaupapa-rangatiratanga" },
-    { "from": "core", "to": "kaupapa-tikanga" },
-    { "from": "kaupapa-tiriti", "to": "kaupapa-rangatiratanga" },
-    { "from": "kaupapa-tiriti", "to": "kaupapa-tikanga" },
-    { "from": "kaupapa-tiriti", "to": "kaupapa-whenua" },
-    { "from": "kaupapa-tiriti", "to": "kaupapa-mokopuna" },
-
-    { "from": "kaupapa-rangatiratanga", "to": "iwi-tainui" },
-    { "from": "kaupapa-rangatiratanga", "to": "iwi-ngapuhi" },
-    { "from": "kaupapa-rangatiratanga", "to": "iwi-ngatiporou" },
-    { "from": "kaupapa-rangatiratanga", "to": "iwi-tuhoe" },
-    { "from": "kaupapa-rangatiratanga", "to": "iwi-taranaki" },
-    { "from": "kaupapa-rangatiratanga", "to": "iwi-ngaitahu" },
-
-    { "from": "core", "to": "policy-constitutional" },
-    { "from": "core", "to": "policy-kai" },
-    { "from": "core", "to": "policy-justice" },
-    { "from": "core", "to": "policy-neutrality" },
-    { "from": "core", "to": "policy-wealth" },
-    { "from": "core", "to": "policy-education" },
-    { "from": "policy-constitutional", "to": "kaupapa-tiriti" },
-    { "from": "policy-kai", "to": "kaupapa-whenua" },
-    { "from": "policy-education", "to": "kaupapa-mokopuna" },
-
-    { "from": "policy-education", "to": "course-1" },
-    { "from": "policy-education", "to": "course-2" },
-    { "from": "policy-education", "to": "course-3" },
-    { "from": "policy-education", "to": "course-4" },
-    { "from": "policy-education", "to": "course-5" },
-
-    { "from": "core", "to": "campaign-social" },
-    { "from": "core", "to": "campaign-street" },
-    { "from": "core", "to": "campaign-mediakit" },
-    { "from": "core", "to": "campaign-online" },
-    { "from": "campaign-social", "to": "campaign-online" },
-    { "from": "campaign-street", "to": "campaign-mediakit" },
-
-    { "from": "campaign-social", "to": "course-2" },
-    { "from": "campaign-online", "to": "course-4" },
-    { "from": "campaign-street", "to": "course-5" },
-
-    { "from": "iwi-tainui", "to": "mp-maipiclarke" },
-    { "from": "iwi-tainui", "to": "policy-education" },
-    { "from": "iwi-ngapuhi", "to": "kaupapa-tiriti" },
-
-    { "from": "core", "to": "fund-givealittle" },
-    { "from": "core", "to": "fund-kofi" },
-    { "from": "core", "to": "fund-substack" },
-    { "from": "fund-substack", "to": "policy-education" }
+    {
+      "from": "core",
+      "to": "leader-waititi"
+    },
+    {
+      "from": "core",
+      "to": "leader-ngarewapacker"
+    },
+    {
+      "from": "core",
+      "to": "mp-maipiclarke"
+    },
+    {
+      "from": "core",
+      "to": "mp-kaipara"
+    },
+    {
+      "from": "core",
+      "to": "kaupapa-tiriti"
+    },
+    {
+      "from": "core",
+      "to": "kaupapa-rangatiratanga"
+    },
+    {
+      "from": "core",
+      "to": "kaupapa-tikanga"
+    },
+    {
+      "from": "kaupapa-tiriti",
+      "to": "kaupapa-rangatiratanga"
+    },
+    {
+      "from": "kaupapa-tiriti",
+      "to": "kaupapa-tikanga"
+    },
+    {
+      "from": "kaupapa-tiriti",
+      "to": "kaupapa-whenua"
+    },
+    {
+      "from": "kaupapa-tiriti",
+      "to": "kaupapa-mokopuna"
+    },
+    {
+      "from": "kaupapa-rangatiratanga",
+      "to": "iwi-tainui"
+    },
+    {
+      "from": "kaupapa-rangatiratanga",
+      "to": "iwi-ngapuhi"
+    },
+    {
+      "from": "kaupapa-rangatiratanga",
+      "to": "iwi-ngatiporou"
+    },
+    {
+      "from": "kaupapa-rangatiratanga",
+      "to": "iwi-tuhoe"
+    },
+    {
+      "from": "kaupapa-rangatiratanga",
+      "to": "iwi-taranaki"
+    },
+    {
+      "from": "kaupapa-rangatiratanga",
+      "to": "iwi-ngaitahu"
+    },
+    {
+      "from": "core",
+      "to": "policy-constitutional"
+    },
+    {
+      "from": "core",
+      "to": "policy-kai"
+    },
+    {
+      "from": "core",
+      "to": "policy-justice"
+    },
+    {
+      "from": "core",
+      "to": "policy-neutrality"
+    },
+    {
+      "from": "core",
+      "to": "policy-wealth"
+    },
+    {
+      "from": "core",
+      "to": "policy-education"
+    },
+    {
+      "from": "policy-constitutional",
+      "to": "kaupapa-tiriti"
+    },
+    {
+      "from": "policy-kai",
+      "to": "kaupapa-whenua"
+    },
+    {
+      "from": "policy-education",
+      "to": "kaupapa-mokopuna"
+    },
+    {
+      "from": "policy-education",
+      "to": "course-1"
+    },
+    {
+      "from": "policy-education",
+      "to": "course-2"
+    },
+    {
+      "from": "policy-education",
+      "to": "course-3"
+    },
+    {
+      "from": "policy-education",
+      "to": "course-4"
+    },
+    {
+      "from": "policy-education",
+      "to": "course-5"
+    },
+    {
+      "from": "core",
+      "to": "campaign-social"
+    },
+    {
+      "from": "core",
+      "to": "campaign-street"
+    },
+    {
+      "from": "core",
+      "to": "campaign-mediakit"
+    },
+    {
+      "from": "core",
+      "to": "campaign-online"
+    },
+    {
+      "from": "campaign-social",
+      "to": "campaign-online"
+    },
+    {
+      "from": "campaign-street",
+      "to": "campaign-mediakit"
+    },
+    {
+      "from": "campaign-social",
+      "to": "course-2"
+    },
+    {
+      "from": "campaign-online",
+      "to": "course-4"
+    },
+    {
+      "from": "campaign-street",
+      "to": "course-5"
+    },
+    {
+      "from": "iwi-tainui",
+      "to": "mp-maipiclarke"
+    },
+    {
+      "from": "iwi-tainui",
+      "to": "policy-education"
+    },
+    {
+      "from": "iwi-ngapuhi",
+      "to": "kaupapa-tiriti"
+    },
+    {
+      "from": "core",
+      "to": "fund-givealittle"
+    },
+    {
+      "from": "core",
+      "to": "fund-kofi"
+    },
+    {
+      "from": "core",
+      "to": "fund-substack"
+    },
+    {
+      "from": "fund-substack",
+      "to": "policy-education"
+    },
+    {
+      "from": "tpm-core",
+      "to": "kin-hub"
+    },
+    {
+      "from": "kin-hub",
+      "to": "kin-west-papua"
+    },
+    {
+      "from": "kin-hub",
+      "to": "kin-kanaky"
+    },
+    {
+      "from": "kin-hub",
+      "to": "kin-hawaii"
+    },
+    {
+      "from": "kin-hub",
+      "to": "kin-first-nations-au"
+    },
+    {
+      "from": "kin-hub",
+      "to": "kin-turtle-island"
+    },
+    {
+      "from": "kin-hub",
+      "to": "kin-sapmi"
+    },
+    {
+      "from": "kin-hub",
+      "to": "kin-palestine"
+    }
   ]
 }

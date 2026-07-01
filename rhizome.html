@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Rhizome Mapper — AI Warrior × Te Pā Literacy</title>
+<title data-i18n="rz.title">Rhizome Mapper — AI Warrior × Te Pā Literacy</title>
 <meta name="description" content="Interactive rhizome map of Te Pāti Māori: leaders, iwi, kaupapa, policy, curriculum and campaigns — one connected field, no hierarchy.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,14 +25,14 @@
       </svg>
       <span>AI Warrior<small>Te Pā Literacy</small></span>
     </a>
-    <button class="nav-toggle" aria-label="Menu">≡</button>
+    <button class="nav-toggle" aria-label="Menu" data-i18n-attr="aria-label:nav.menu">≡</button>
     <nav class="nav" aria-label="Primary">
-      <a href="index.html">Home</a>
-      <a href="curriculum.html">Curriculum</a>
-      <a href="campaigns.html">Campaigns</a>
-      <a href="rhizome.html">Rhizome</a>
-      <a href="tiriti.html">Te Tiriti</a>
-      <a href="crowdfund.html" class="nav-cta">Support Kaupapa</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="curriculum.html" data-i18n="nav.curriculum">Curriculum</a>
+      <a href="campaigns.html" data-i18n="nav.campaigns">Campaigns</a>
+      <a href="rhizome.html" data-i18n="nav.rhizome">Rhizome</a>
+      <a href="tiriti.html" data-i18n="nav.tiriti">Te Tiriti</a>
+      <a href="crowdfund.html" class="nav-cta" data-i18n="nav.support">Support Kaupapa</a>
     </nav>
   </div>
 </header>
@@ -41,25 +41,25 @@
 
 <section class="section-tight">
   <div class="wrap">
-    <p class="eyebrow">The Rhizome Mapper</p>
-    <h1 style="font-size:var(--text-3xl); max-width:22ch;">Not a tree. A rhizome.</h1>
-    <p style="max-width:70ch;">Following Deleuze &amp; Guattari — and, closer to home, the way a kūmara vine actually grows — this map has no top, no boss, no head office. Every node connects laterally. Click any node to jump to the source. Drag to explore. This is Te Pāti Māori, its kaupapa, its iwi relationships, our curriculum and campaigns, all in one field.</p>
+    <p class="eyebrow" data-i18n="rz.eyebrow">The Rhizome Mapper</p>
+    <h1 style="font-size:var(--text-3xl); max-width:22ch;" data-i18n="rz.h1">Not a tree. A rhizome.</h1>
+    <p style="max-width:70ch;" data-i18n="rz.intro">Following Deleuze &amp; Guattari — and, closer to home, the way a kūmara vine actually grows — this map has no top, no boss, no head office. Every node connects laterally. Click any node to jump to the source. Drag to explore. This is Te Pāti Māori, its kaupapa, its iwi relationships, our curriculum and campaigns, all in one field.</p>
 
     <div class="rhizome-filter" style="display:flex; flex-wrap:wrap; gap:8px; margin: var(--s-5) 0;">
-      <button class="btn btn-ghost active" data-filter="all" style="padding:6px 12px;">All</button>
-      <button class="btn btn-ghost" data-filter="leader" style="padding:6px 12px;">Leaders</button>
-      <button class="btn btn-ghost" data-filter="mp" style="padding:6px 12px;">MPs</button>
-      <button class="btn btn-ghost" data-filter="iwi" style="padding:6px 12px;">Iwi</button>
-      <button class="btn btn-ghost" data-filter="kaupapa" style="padding:6px 12px;">Kaupapa</button>
-      <button class="btn btn-ghost" data-filter="policy" style="padding:6px 12px;">Policy</button>
-      <button class="btn btn-ghost" data-filter="campaign" style="padding:6px 12px;">Campaigns</button>
-      <button class="btn btn-ghost" data-filter="course" style="padding:6px 12px;">Courses</button>
-      <button class="btn btn-ghost" data-filter="fund" style="padding:6px 12px;">Funding</button>
+      <button class="btn btn-ghost active" data-filter="all" style="padding:6px 12px;" data-i18n="rz.filter.all">All</button>
+      <button class="btn btn-ghost" data-filter="leader" style="padding:6px 12px;" data-i18n="rz.filter.leader">Leaders</button>
+      <button class="btn btn-ghost" data-filter="mp" style="padding:6px 12px;" data-i18n="rz.filter.mp">MPs</button>
+      <button class="btn btn-ghost" data-filter="iwi" style="padding:6px 12px;" data-i18n="rz.filter.iwi">Iwi</button>
+      <button class="btn btn-ghost" data-filter="kaupapa" style="padding:6px 12px;" data-i18n="rz.filter.kaupapa">Kaupapa</button>
+      <button class="btn btn-ghost" data-filter="policy" style="padding:6px 12px;" data-i18n="rz.filter.policy">Policy</button>
+      <button class="btn btn-ghost" data-filter="campaign" style="padding:6px 12px;" data-i18n="rz.filter.campaign">Campaigns</button>
+      <button class="btn btn-ghost" data-filter="course" style="padding:6px 12px;" data-i18n="rz.filter.course">Courses</button>
+      <button class="btn btn-ghost" data-filter="fund" style="padding:6px 12px;" data-i18n="rz.filter.fund">Funding</button>
     </div>
 
     <div id="rhizome" style="height:640px; background:var(--hina); border:1px solid var(--line); border-radius:var(--radius); box-shadow: 0 20px 60px rgba(15,11,9,0.1);"></div>
 
-    <p class="mono mt-6" style="color:var(--kōkōwai)">Tip · Click any node to open its source. Drag to move. Scroll to zoom. On mobile, pinch.</p>
+    <p class="mono mt-6" style="color:var(--kōkōwai)" data-i18n="rz.tip">Tip · Click any node to open its source. Drag to move. Scroll to zoom. On mobile, pinch.</p>
   </div>
 </section>
 
@@ -67,9 +67,9 @@
 
 <section class="section">
   <div class="wrap">
-    <p class="eyebrow">Static rhizome — for print, posters &amp; PDF</p>
-    <h2>The printable version.</h2>
-    <p style="max-width:70ch;">Same relationships, hand-composed for A3 print. Drop this on a marae wall or fold it into a zine.</p>
+    <p class="eyebrow" data-i18n="rz.print.eyebrow">Static rhizome — for print, posters &amp; PDF</p>
+    <h2 data-i18n="rz.print.title">The printable version.</h2>
+    <p style="max-width:70ch;" data-i18n="rz.print.body">Same relationships, hand-composed for A3 print. Drop this on a marae wall or fold it into a zine.</p>
 
     <div style="background:var(--muku); padding:var(--s-6); border-radius:var(--radius); margin-top:var(--s-5); overflow:auto;">
       <svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; background:var(--muku);" aria-label="Static rhizome diagram">
@@ -148,7 +148,7 @@
         <text x="450" y="590" text-anchor="middle" fill="#efe6d3" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="2">AI WARRIOR × TE PĀ LITERACY  ·  STATIC RHIZOME  ·  CC BY-SA 4.0</text>
       </svg>
     </div>
-    <p class="mono mt-6"><a href="assets/rhizome-print.svg">Download print-ready SVG</a> · <a href="data/rhizome.json">Raw JSON data</a></p>
+    <p class="mono mt-6"><a href="assets/rhizome-print.svg" data-i18n="rz.print.link.svg">Download print-ready SVG</a> · <a href="data/rhizome.json" data-i18n="rz.print.link.data">Raw JSON data</a></p>
   </div>
 </section>
 
@@ -158,41 +158,42 @@
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <h4>AI Warrior</h4>
-        <p style="font-size:var(--text-sm);">Te Pā Literacy — kaupapa Māori digital literacy for iwi, hapū and whānau. Openly licensed. Whānau-funded.</p>
+        <h4 data-i18n="footer.brand.title">AI Warrior</h4>
+        <p style="font-size:var(--text-sm);" data-i18n="footer.brand.body">Te Pā Literacy — kaupapa Māori digital literacy for iwi, hapū and whānau. Openly licensed. Whānau-funded.</p>
       </div>
       <div>
-        <h4>Kaupapa</h4>
+        <h4 data-i18n="footer.kaupapa">Kaupapa</h4>
         <ul>
-          <li><a href="curriculum.html">Curriculum</a></li>
-          <li><a href="campaigns.html">Campaigns</a></li>
-          <li><a href="rhizome.html">Rhizome</a></li>
-          <li><a href="tiriti.html">Te Tiriti</a></li>
+          <li><a href="curriculum.html" data-i18n="nav.curriculum">Curriculum</a></li>
+          <li><a href="campaigns.html" data-i18n="nav.campaigns">Campaigns</a></li>
+          <li><a href="rhizome.html" data-i18n="nav.rhizome">Rhizome</a></li>
+          <li><a href="tiriti.html" data-i18n="nav.tiriti">Te Tiriti</a></li>
         </ul>
       </div>
       <div>
-        <h4>Support</h4>
+        <h4 data-i18n="footer.support">Support</h4>
         <ul>
-          <li><a href="crowdfund.html">Crowdfund</a></li>
-          <li><a href="https://thekiwidialectic.substack.com/">The Kiwi Dialectic</a></li>
-          <li><a href="https://www.maoriparty.org.nz/">Te Pāti Māori</a></li>
+          <li><a href="crowdfund.html" data-i18n="footer.support.crowdfund">Crowdfund</a></li>
+          <li><a href="https://thekiwidialectic.substack.com/" data-i18n="footer.support.substack">The Kiwi Dialectic</a></li>
+          <li><a href="https://www.maoriparty.org.nz/" data-i18n="footer.support.tpm">Te Pāti Māori</a></li>
         </ul>
       </div>
       <div>
-        <h4>Open</h4>
+        <h4 data-i18n="footer.open">Open</h4>
         <ul>
-          <li><a href="https://github.com/robertmccallnz/ai-warrior-te-pa">GitHub repo</a></li>
-          <li><a href="rhizome.html">Rhizome data (JSON)</a></li>
-          <li><a href="#">CC BY-SA 4.0</a></li>
+          <li><a href="https://github.com/robertmccallnz/ai-warrior-te-pa" data-i18n="footer.open.repo">GitHub repo</a></li>
+          <li><a href="rhizome.html" data-i18n="footer.open.data">Rhizome data (JSON)</a></li>
+          <li><a href="#" data-i18n="footer.open.licence">CC BY-SA 4.0</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">
+    <div class="footer-bottom" data-i18n="footer.bottom">
       Nā te whānau, mā te whānau. · Made in Ōtepoti / Dunedin · Whakawhetai to every iwi, hapū and marae carrying this kaupapa.
     </div>
   </div>
 </footer>
 
+<script src="js/i18n.js"></script>
 <script src="js/nav.js"></script>
 <script src="js/rhizome.js"></script>
 </body>

@@ -1,0 +1,7 @@
+{
+  "updated_at": null,
+  "generated_by": "Monday scan · not yet run",
+  "notes": "New findings from the weekly scan (news, Te Pāti Māori panui, Parliament) land here as 'live' nodes. Group values: news, panui, parliament. Every live node MUST link to a permanent node via an edge so it grows off the existing rhizome. Sources must be markdown-formatted links inside the 'source' field.",
+  "nodes": [],
+  "edges": []
+}
