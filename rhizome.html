@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rhizome Mapper — AI Warrior × Te Pā Literacy</title>
+<meta name="description" content="Interactive rhizome map of Te Pāti Māori: leaders, iwi, kaupapa, policy, curriculum and campaigns — one connected field, no hierarchy.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a href="index.html" class="brand" aria-label="AI Warrior × Te Pā Literacy home">
+      <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="37" height="37" rx="2" stroke="currentColor" stroke-width="2"/>
+        <path d="M8 32 L20 8 L32 32" stroke="#a4181a" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+        <circle cx="20" cy="22" r="3" fill="#a4181a"/>
+        <path d="M12 32 L28 32" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span>AI Warrior<small>Te Pā Literacy</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu">≡</button>
+    <nav class="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="curriculum.html">Curriculum</a>
+      <a href="campaigns.html">Campaigns</a>
+      <a href="rhizome.html">Rhizome</a>
+      <a href="tiriti.html">Te Tiriti</a>
+      <a href="crowdfund.html" class="nav-cta">Support Kaupapa</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<section class="section-tight">
+  <div class="wrap">
+    <p class="eyebrow">The Rhizome Mapper</p>
+    <h1 style="font-size:var(--text-3xl); max-width:22ch;">Not a tree. A rhizome.</h1>
+    <p style="max-width:70ch;">Following Deleuze &amp; Guattari — and, closer to home, the way a kūmara vine actually grows — this map has no top, no boss, no head office. Every node connects laterally. Click any node to jump to the source. Drag to explore. This is Te Pāti Māori, its kaupapa, its iwi relationships, our curriculum and campaigns, all in one field.</p>
+
+    <div class="rhizome-filter" style="display:flex; flex-wrap:wrap; gap:8px; margin: var(--s-5) 0;">
+      <button class="btn btn-ghost active" data-filter="all" style="padding:6px 12px;">All</button>
+      <button class="btn btn-ghost" data-filter="leader" style="padding:6px 12px;">Leaders</button>
+      <button class="btn btn-ghost" data-filter="mp" style="padding:6px 12px;">MPs</button>
+      <button class="btn btn-ghost" data-filter="iwi" style="padding:6px 12px;">Iwi</button>
+      <button class="btn btn-ghost" data-filter="kaupapa" style="padding:6px 12px;">Kaupapa</button>
+      <button class="btn btn-ghost" data-filter="policy" style="padding:6px 12px;">Policy</button>
+      <button class="btn btn-ghost" data-filter="campaign" style="padding:6px 12px;">Campaigns</button>
+      <button class="btn btn-ghost" data-filter="course" style="padding:6px 12px;">Courses</button>
+      <button class="btn btn-ghost" data-filter="fund" style="padding:6px 12px;">Funding</button>
+    </div>
+
+    <div id="rhizome" style="height:640px; background:var(--hina); border:1px solid var(--line); border-radius:var(--radius); box-shadow: 0 20px 60px rgba(15,11,9,0.1);"></div>
+
+    <p class="mono mt-6" style="color:var(--kōkōwai)">Tip · Click any node to open its source. Drag to move. Scroll to zoom. On mobile, pinch.</p>
+  </div>
+</section>
+
+<div class="tukutuku"></div>
+
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Static rhizome — for print, posters &amp; PDF</p>
+    <h2>The printable version.</h2>
+    <p style="max-width:70ch;">Same relationships, hand-composed for A3 print. Drop this on a marae wall or fold it into a zine.</p>
+
+    <div style="background:var(--muku); padding:var(--s-6); border-radius:var(--radius); margin-top:var(--s-5); overflow:auto;">
+      <svg viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto; background:var(--muku);" aria-label="Static rhizome diagram">
+        <defs>
+          <marker id="dot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5">
+            <circle cx="5" cy="5" r="4" fill="#d9a441"/>
+          </marker>
+        </defs>
+        <g stroke="rgba(239,230,211,0.35)" stroke-width="1.2" fill="none">
+          <path d="M450 310 C 300 200, 200 180, 130 140"/>
+          <path d="M450 310 C 600 200, 700 180, 780 140"/>
+          <path d="M450 310 C 350 420, 220 480, 130 520"/>
+          <path d="M450 310 C 550 420, 680 480, 780 520"/>
+          <path d="M450 310 C 350 350, 250 340, 130 320"/>
+          <path d="M450 310 C 550 350, 650 340, 780 320"/>
+          <path d="M130 140 C 200 220, 260 260, 320 270"/>
+          <path d="M780 140 C 700 220, 640 260, 580 270"/>
+          <path d="M130 520 C 250 500, 320 460, 380 400"/>
+          <path d="M780 520 C 650 500, 580 460, 520 400"/>
+          <path d="M130 320 C 220 340, 300 340, 380 340"/>
+          <path d="M780 320 C 680 340, 600 340, 520 340"/>
+        </g>
+
+        <!-- core -->
+        <g>
+          <circle cx="450" cy="310" r="60" fill="#a4181a" stroke="#f5efe4" stroke-width="3"/>
+          <text x="450" y="305" text-anchor="middle" fill="#f5efe4" font-family="Fraunces, serif" font-size="18" font-weight="600">Te Pāti</text>
+          <text x="450" y="325" text-anchor="middle" fill="#f5efe4" font-family="Fraunces, serif" font-size="18" font-weight="600">Māori</text>
+        </g>
+
+        <!-- top corners: kaupapa -->
+        <g font-family="Inter, sans-serif" font-size="12" fill="#0f0b09">
+          <rect x="60" y="115" width="150" height="50" rx="4" fill="#d9a441"/>
+          <text x="135" y="138" text-anchor="middle" font-family="Fraunces, serif" font-size="14" font-weight="600">Te Tiriti o Waitangi</text>
+          <text x="135" y="154" text-anchor="middle" font-size="10">Article 2 · Rangatiratanga</text>
+
+          <rect x="700" y="115" width="160" height="50" rx="4" fill="#d9a441"/>
+          <text x="780" y="138" text-anchor="middle" font-family="Fraunces, serif" font-size="14" font-weight="600">Tino Rangatiratanga</text>
+          <text x="780" y="154" text-anchor="middle" font-size="10">Unqualified sovereignty</text>
+        </g>
+
+        <!-- iwi row -->
+        <g font-family="Inter, sans-serif" font-size="11" fill="#f5efe4">
+          <polygon points="70,310 90,290 190,290 210,310 190,330 90,330" fill="#3a5a3a"/>
+          <text x="140" y="314" text-anchor="middle">Waikato-Tainui</text>
+
+          <polygon points="230,310 250,290 320,290 340,310 320,330 250,330" fill="#3a5a3a"/>
+          <text x="285" y="314" text-anchor="middle">Ngāpuhi</text>
+
+          <polygon points="560,310 580,290 660,290 680,310 660,330 580,330" fill="#3a5a3a"/>
+          <text x="620" y="314" text-anchor="middle">Ngāi Tūhoe</text>
+
+          <polygon points="700,310 720,290 830,290 850,310 830,330 720,330" fill="#3a5a3a"/>
+          <text x="775" y="314" text-anchor="middle">Ngāi Tahu</text>
+        </g>
+
+        <!-- policy / course row bottom -->
+        <g font-family="Inter, sans-serif" font-size="11">
+          <rect x="60" y="500" width="150" height="45" rx="4" fill="#1c3f57"/>
+          <text x="135" y="520" text-anchor="middle" fill="#f5efe4" font-weight="600">Māori-led Education</text>
+          <text x="135" y="536" text-anchor="middle" fill="#f5efe4">Policy pou</text>
+
+          <rect x="235" y="500" width="150" height="45" rx="4" fill="#efe6d3"/>
+          <text x="310" y="520" text-anchor="middle" fill="#0f0b09" font-weight="600">5 Courses</text>
+          <text x="310" y="536" text-anchor="middle" fill="#0f0b09">AI Literacy Basics → Digital Pā</text>
+
+          <rect x="410" y="500" width="160" height="45" rx="4" fill="#c65a2e"/>
+          <text x="490" y="520" text-anchor="middle" fill="#f5efe4" font-weight="600">Campaigns</text>
+          <text x="490" y="536" text-anchor="middle" fill="#f5efe4">Social · Street · Media · Online</text>
+
+          <rect x="600" y="500" width="150" height="45" rx="4" fill="#f5efe4" stroke="#3a5a3a" stroke-width="2"/>
+          <text x="675" y="520" text-anchor="middle" fill="#0f0b09" font-weight="600">Crowdfund</text>
+          <text x="675" y="536" text-anchor="middle" fill="#0f0b09">Givealittle · Ko-fi · Substack</text>
+        </g>
+
+        <text x="450" y="590" text-anchor="middle" fill="#efe6d3" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="2">AI WARRIOR × TE PĀ LITERACY  ·  STATIC RHIZOME  ·  CC BY-SA 4.0</text>
+      </svg>
+    </div>
+    <p class="mono mt-6"><a href="assets/rhizome-print.svg">Download print-ready SVG</a> · <a href="data/rhizome.json">Raw JSON data</a></p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>AI Warrior</h4>
+        <p style="font-size:var(--text-sm);">Te Pā Literacy — kaupapa Māori digital literacy for iwi, hapū and whānau. Openly licensed. Whānau-funded.</p>
+      </div>
+      <div>
+        <h4>Kaupapa</h4>
+        <ul>
+          <li><a href="curriculum.html">Curriculum</a></li>
+          <li><a href="campaigns.html">Campaigns</a></li>
+          <li><a href="rhizome.html">Rhizome</a></li>
+          <li><a href="tiriti.html">Te Tiriti</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="crowdfund.html">Crowdfund</a></li>
+          <li><a href="https://thekiwidialectic.substack.com/">The Kiwi Dialectic</a></li>
+          <li><a href="https://www.maoriparty.org.nz/">Te Pāti Māori</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Open</h4>
+        <ul>
+          <li><a href="#" data-repo>GitHub repo</a></li>
+          <li><a href="rhizome.html">Rhizome data (JSON)</a></li>
+          <li><a href="#">CC BY-SA 4.0</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Nā te whānau, mā te whānau. · Made in Ōtepoti / Dunedin · Whakawhetai to every iwi, hapū and marae carrying this kaupapa.
+    </div>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
+<script src="js/rhizome.js"></script>
+</body>
+</html>
