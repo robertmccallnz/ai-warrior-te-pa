@@ -63,7 +63,7 @@ Pull requests welcome — new courses, new iwi nodes on the rhizome, better te r
 ## Support the kaupapa
 
 - **[Givealittle](https://givealittle.co.nz/)** — one-off
-- **[Ko-fi](https://ko-fi.com/)** — monthly
+- **[Ko-fi](https://ko-fi.com/thekiwidialectic)** — monthly
 - **[The Kiwi Dialectic Substack](https://thekiwidialectic.substack.com/)** — paid subscription
 
 ---

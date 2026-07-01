@@ -38,6 +38,7 @@ const DICT = {
     'footer.support': 'Tautoko',
     'footer.support.crowdfund': 'Kohi pūtea',
     'footer.support.substack': 'The Kiwi Dialectic',
+    'footer.support.kofi': 'Ko-fi',
     'footer.support.tpm': 'Te Pāti Māori',
     'footer.open': 'Tuwhera',
     'footer.open.repo': 'Puna GitHub',
