@@ -1,7 +1,33 @@
 {
-  "updated_at": null,
-  "generated_by": "Monday scan · not yet run",
+  "updated_at": "2026-07-20",
+  "generated_by": "Monday scan · weekly rhizome live-layer",
   "notes": "New findings from the weekly scan (news, Te Pāti Māori panui, Parliament) land here as 'live' nodes. Group values: news, panui, parliament. Every live node MUST link to a permanent node via an edge so it grows off the existing rhizome. Sources must be markdown-formatted links inside the 'source' field.",
-  "nodes": [],
-  "edges": []
+  "nodes": [
+    {
+      "id": "live-news-2026-07-19-office-of-ai",
+      "group": "news",
+      "label": "Calls Grow for New Zealand to Establish a National Office o…",
+      "title": "Calls Grow for New Zealand to Establish a National Office of AI\nhttps://waateanews.com/2026/07/19/calls-grow-for-new-zealand-to-establish-a-national-office-of-ai/",
+      "date": "2026-07-19",
+      "url": "https://waateanews.com/2026/07/19/calls-grow-for-new-zealand-to-establish-a-national-office-of-ai/"
+    },
+    {
+      "id": "live-news-2026-07-15-digital-sovereignty-data-centres",
+      "group": "news",
+      "label": "Digital Sovereignty Under the Spotlight as Data Centre Inve…",
+      "title": "Digital Sovereignty Under the Spotlight as Data Centre Investment Surges\nhttps://waateanews.com/2026/07/15/digital-sovereignty-under-the-spotlight-as-data-centre-investment-surges/",
+      "date": "2026-07-15",
+      "url": "https://waateanews.com/2026/07/15/digital-sovereignty-under-the-spotlight-as-data-centre-investment-surges/"
+    }
+  ],
+  "edges": [
+    {
+      "from": "live-news-2026-07-19-office-of-ai",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-2026-07-15-digital-sovereignty-data-centres",
+      "to": "tpm-core"
+    }
+  ]
 }
