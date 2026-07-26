@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20",
+  "updated_at": "2026-07-26",
   "generated_by": "Monday scan · weekly rhizome live-layer",
   "notes": "New findings from the weekly scan (news, Te Pāti Māori panui, Parliament) land here as 'live' nodes. Group values: news, panui, parliament. Every live node MUST link to a permanent node via an edge so it grows off the existing rhizome. Sources must be markdown-formatted links inside the 'source' field.",
   "nodes": [
@@ -18,6 +18,15 @@
       "title": "Digital Sovereignty Under the Spotlight as Data Centre Investment Surges\nhttps://waateanews.com/2026/07/15/digital-sovereignty-under-the-spotlight-as-data-centre-investment-surges/",
       "date": "2026-07-15",
       "url": "https://waateanews.com/2026/07/15/digital-sovereignty-under-the-spotlight-as-data-centre-investment-surges/"
+    },
+    {
+      "id": "live-news-nz-ai-strategy-2026-07-21",
+      "group": "news",
+      "shape": "star",
+      "label": "NZ AI strategy: 'light touch' regulation",
+      "title": "Bell Gully analysis: NZ AI Strategy released 8 July; confirms 'light-touch' principles-based approach + Responsible AI Guidance for businesses. https://www.bellgully.com/insights/nz-s-ai-strategy-light-touch-regulation-and-opportunities-for-businesses/",
+      "date": "2026-07-21",
+      "url": "https://www.bellgully.com/insights/nz-s-ai-strategy-light-touch-regulation-and-opportunities-for-businesses/"
     }
   ],
   "edges": [
@@ -28,6 +37,10 @@
     {
       "from": "live-news-2026-07-15-digital-sovereignty-data-centres",
       "to": "tpm-core"
+    },
+    {
+      "source": "live-news-nz-ai-strategy-2026-07-21",
+      "target": "tpm-core"
     }
   ]
 }
