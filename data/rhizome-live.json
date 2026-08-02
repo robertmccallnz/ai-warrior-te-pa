@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-26",
+  "updated_at": "2026-08-03",
   "generated_by": "Monday scan · weekly rhizome live-layer",
   "notes": "New findings from the weekly scan (news, Te Pāti Māori panui, Parliament) land here as 'live' nodes. Group values: news, panui, parliament. Every live node MUST link to a permanent node via an edge so it grows off the existing rhizome. Sources must be markdown-formatted links inside the 'source' field.",
   "nodes": [
@@ -27,6 +27,136 @@
       "title": "Bell Gully analysis: NZ AI Strategy released 8 July; confirms 'light-touch' principles-based approach + Responsible AI Guidance for businesses. https://www.bellgully.com/insights/nz-s-ai-strategy-light-touch-regulation-and-opportunities-for-businesses/",
       "date": "2026-07-21",
       "url": "https://www.bellgully.com/insights/nz-s-ai-strategy-light-touch-regulation-and-opportunities-for-businesses/"
+    },
+    {
+      "id": "live-news-ai-data-centre-trust-2026-07-27",
+      "group": "news",
+      "shape": "star",
+      "label": "AI data-centre debate turns to trust and community voice",
+      "title": "Waatea News: debate over Datagrid’s proposed $3.5 billion AI data centre in Makarewa focuses on public trust, community participation, environmental impacts, energy and water use, Māori inclusion, kaitiakitanga, Treaty relationships, and data sovereignty. https://waateanews.com/2026/07/27/ai-data-centre-debate-turns-to-trust-as-calls-grow-for-community-voice-as-debate-intensifies-over-a-proposed-3-5-billion-ai-data-centre-in-makarewa-attention-is-increasingly-turning-beyond-the-tech/",
+      "source": "[Waatea News](https://waateanews.com/2026/07/27/ai-data-centre-debate-turns-to-trust-as-calls-grow-for-community-voice-as-debate-intensifies-over-a-proposed-3-5-billion-ai-data-centre-in-makarewa-attention-is-increasingly-turning-beyond-the-tech/)",
+      "date": "2026-07-27",
+      "url": "https://waateanews.com/2026/07/27/ai-data-centre-debate-turns-to-trust-as-calls-grow-for-community-voice-as-debate-intensifies-over-a-proposed-3-5-billion-ai-data-centre-in-makarewa-attention-is-increasingly-turning-beyond-the-tech/"
+    },
+    {
+      "id": "live-news-green-ai-moratorium-2026-07-27",
+      "group": "news",
+      "shape": "star",
+      "label": "Green Party proposes one-year pause on AI data-centre consents",
+      "title": "The Spinoff: the Green Party proposed a one-year moratorium on new AI data-centre consents to establish rules before more facilities are built, citing community input, water supplies, power prices, Te Tiriti, climate, and energy concerns. https://thespinoff.co.nz/the-bulletin/27-07-2026/a-green-party-for-all-of-us",
+      "source": "[The Spinoff](https://thespinoff.co.nz/the-bulletin/27-07-2026/a-green-party-for-all-of-us)",
+      "date": "2026-07-27",
+      "url": "https://thespinoff.co.nz/the-bulletin/27-07-2026/a-green-party-for-all-of-us"
+    },
+    {
+      "id": "live-news-courts-ai-guidelines-2026-07-27",
+      "group": "news",
+      "shape": "star",
+      "label": "Experts call for updated guidelines on AI use in courts",
+      "title": "RNZ: academics called for updated, transparent guidance on AI use in New Zealand courts, while judicial trials remain cautious and prohibit AI from replacing or obscuring human judicial reasoning; users remain accountable for privacy, verification, and ethical obligations. https://www.rnz.co.nz/news/science-and-technology/811971/guidelines-for-ai-use-in-courts-need-updating-some-academics-say",
+      "source": "[RNZ](https://www.rnz.co.nz/news/science-and-technology/811971/guidelines-for-ai-use-in-courts-need-updating-some-academics-say)",
+      "date": "2026-07-27",
+      "url": "https://www.rnz.co.nz/news/science-and-technology/811971/guidelines-for-ai-use-in-courts-need-updating-some-academics-say"
+    },
+    {
+      "id": "live-news-nzdf-ai-sovereignty-2026-07-28",
+      "group": "news",
+      "shape": "star",
+      "label": "NZ defence AI tests raise data and sovereignty questions",
+      "title": "RNZ: NZDF participation in allied defence-AI testing exposes New Zealand to command, sensor, fire-control, human-machine integration, and data-sharing networks, raising the risk of dependence if New Zealand data, software, sensors, or operators become embedded in allied kill chains. https://www.rnz.co.nz/news/science-and-technology/825548/nzdf-joins-us-army-to-test-high-tech-weapons",
+      "source": "[RNZ](https://www.rnz.co.nz/news/science-and-technology/825548/nzdf-joins-us-army-to-test-high-tech-weapons)",
+      "date": "2026-07-28",
+      "url": "https://www.rnz.co.nz/news/science-and-technology/825548/nzdf-joins-us-army-to-test-high-tech-weapons"
+    },
+    {
+      "id": "live-news-ai-boom-environment-security-2026-07-28",
+      "group": "news",
+      "shape": "star",
+      "label": "AI boom brings hidden environmental and security costs",
+      "title": "Stuff: proposed multi-billion-dollar AI data centres are prompting concern over heavy electricity and groundwater demands, while foreign ownership could expose local data to overseas spy agencies and create security and sovereignty risks. https://www.stuff.co.nz/nz-news/361012463/hidden-environmental-and-security-price-nzs-ai-boom",
+      "source": "[Stuff](https://www.stuff.co.nz/nz-news/361012463/hidden-environmental-and-security-price-nzs-ai-boom)",
+      "date": "2026-07-28",
+      "url": "https://www.stuff.co.nz/nz-news/361012463/hidden-environmental-and-security-price-nzs-ai-boom"
+    },
+    {
+      "id": "live-parliament-ai-rules-2026-07-28",
+      "group": "parliament",
+      "shape": "triangleDown",
+      "label": "Parliament debates rules before AI data-centre consents",
+      "title": "New Zealand Parliament Hansard, 28 July: Chlöe Swarbrick asked whether sensible rules for AI data centres should precede further consents; the Prime Minister opposed a 12-month moratorium while supporting future common-sense rules and continued investment, with debate covering energy, water, electricity prices, and dry-year risk. https://hansard.parliament.nz/hansard-transcript/2026-07-28/bills-employment-leave-bill-committee-of-the-whole-house",
+      "source": "[New Zealand Parliament Hansard](https://hansard.parliament.nz/hansard-transcript/2026-07-28/bills-employment-leave-bill-committee-of-the-whole-house)",
+      "date": "2026-07-28",
+      "url": "https://hansard.parliament.nz/hansard-transcript/2026-07-28/bills-employment-leave-bill-committee-of-the-whole-house"
+    },
+    {
+      "id": "live-news-hyperscale-ai-factory-2026-07-29",
+      "group": "news",
+      "shape": "star",
+      "label": "Southland hyperscale AI factory puts power security in focus",
+      "title": "Stuff: a planned power-hungry Southland AI factory raises questions about national impacts and electricity security; operating during tight mid-winter conditions could have contributed to a power crisis. https://www.stuff.co.nz/politics/361012168/southlands-hyperscale-ai-factory-is-two-years-away-but-if-it-was-here-today-wed-have-issues",
+      "source": "[Stuff](https://www.stuff.co.nz/politics/361012168/southlands-hyperscale-ai-factory-is-two-years-away-but-if-it-was-here-today-wed-have-issues)",
+      "date": "2026-07-29",
+      "url": "https://www.stuff.co.nz/politics/361012168/southlands-hyperscale-ai-factory-is-two-years-away-but-if-it-was-here-today-wed-have-issues"
+    },
+    {
+      "id": "live-news-schools-ai-framework-2026-07-29",
+      "group": "news",
+      "shape": "star",
+      "label": "Education Review Office calls for national AI-in-schools framework",
+      "title": "RNZ: the Education Review Office recommended a national AI-in-education framework and policies for teacher and student use, amid safety concerns, inconsistent school rules, assessment misuse, limited awareness of Ministry guidance, and reported effects on critical thinking. https://www.rnz.co.nz/news/education/836125/teachers-worried-about-critical-thinking-as-ai-becomes-widespread-in-schools",
+      "source": "[RNZ](https://www.rnz.co.nz/news/education/836125/teachers-worried-about-critical-thinking-as-ai-becomes-widespread-in-schools)",
+      "date": "2026-07-29",
+      "url": "https://www.rnz.co.nz/news/education/836125/teachers-worried-about-critical-thinking-as-ai-becomes-widespread-in-schools"
+    },
+    {
+      "id": "live-parliament-ai-data-sovereignty-2026-07-29",
+      "group": "parliament",
+      "shape": "triangleDown",
+      "label": "Prime Minister links AI data centres to sovereignty and resilience",
+      "title": "New Zealand Parliament Hansard, 29 July: the Prime Minister described data centres as critical infrastructure and said they could contribute to data sovereignty, resilience, and national security, while the debate questioned jobs, consent timing, energy and water rules, and the absence of a clear strategy. https://hansard.parliament.nz/hansard-transcript/2026-07-29/presentation-petitions?lang=en",
+      "source": "[New Zealand Parliament Hansard](https://hansard.parliament.nz/hansard-transcript/2026-07-29/presentation-petitions?lang=en)",
+      "date": "2026-07-29",
+      "url": "https://hansard.parliament.nz/hansard-transcript/2026-07-29/presentation-petitions?lang=en"
+    },
+    {
+      "id": "live-news-ai-boom-digital-sovereignty-2026-07-30",
+      "group": "news",
+      "shape": "star",
+      "label": "AI boom sparks warning over NZ digital sovereignty",
+      "title": "Waatea News: reliance on overseas-owned cloud platforms and AI services creates economic, strategic, national-security, and digital-sovereignty risks; the article also highlights Māori calls for culturally appropriate governance of data about communities, whakapapa, health, language, and cultural knowledge. https://waateanews.com/2026/07/30/tech-ai-boom-sparks-warning-over-new-zealands-digital-sovereignty/",
+      "source": "[Waatea News](https://waateanews.com/2026/07/30/tech-ai-boom-sparks-warning-over-new-zealands-digital-sovereignty/)",
+      "date": "2026-07-30",
+      "url": "https://waateanews.com/2026/07/30/tech-ai-boom-sparks-warning-over-new-zealands-digital-sovereignty/"
+    },
+    {
+      "id": "live-news-classroom-ai-critical-thinking-2026-07-30",
+      "group": "news",
+      "shape": "star",
+      "label": "Classroom AI raises concerns about student critical thinking",
+      "title": "Stuff: a new Education Review Office report says AI is widespread in New Zealand classrooms, while teachers worry it may harm students’ critical thinking and cause ‘brain fry’. https://www.stuff.co.nz/nz-news/361013696/classroom-ai-giving-new-zealand-students-brain-fry",
+      "source": "[Stuff](https://www.stuff.co.nz/nz-news/361013696/classroom-ai-giving-new-zealand-students-brain-fry)",
+      "date": "2026-07-30",
+      "url": "https://www.stuff.co.nz/nz-news/361013696/classroom-ai-giving-new-zealand-students-brain-fry"
+    },
+    {
+      "id": "live-news-ai-cartels-2026-07-31",
+      "group": "news",
+      "shape": "star",
+      "label": "AI cartels expose new Commerce Act accountability risks",
+      "title": "Newsroom: New Zealand competition rules apply whether decisions are made by people or algorithms, leaving businesses responsible for AI-generated competitive outcomes while regulators monitor algorithmic collusion and potential liability for tool designers or manufacturers. https://newsroom.co.nz/2026/07/31/how-ai-could-accidentally-engage-businesses-in-cartels/",
+      "source": "[Newsroom](https://newsroom.co.nz/2026/07/31/how-ai-could-accidentally-engage-businesses-in-cartels/)",
+      "date": "2026-07-31",
+      "url": "https://newsroom.co.nz/2026/07/31/how-ai-could-accidentally-engage-businesses-in-cartels/"
+    },
+    {
+      "id": "live-kin-oha-ceo-search-2026-07-31",
+      "group": "kin",
+      "shape": "dot",
+      "label": "OHA launches search for next Native Hawaiian CEO",
+      "title": "Office of Hawaiian Affairs: the Board of Trustees launched a nationwide search for its next Administrator/Chief Executive Officer, seeking leadership grounded in Native Hawaiian history, culture, values, public-trust stewardship, and advancement. https://www.oha.org/news/office-of-hawaiian-affairs-search-chief-executive-officer/",
+      "source": "[Office of Hawaiian Affairs](https://www.oha.org/news/office-of-hawaiian-affairs-search-chief-executive-officer/)",
+      "date": "2026-07-31",
+      "url": "https://www.oha.org/news/office-of-hawaiian-affairs-search-chief-executive-officer/"
     }
   ],
   "edges": [
@@ -39,8 +169,60 @@
       "to": "tpm-core"
     },
     {
-      "source": "live-news-nz-ai-strategy-2026-07-21",
-      "target": "tpm-core"
+      "from": "live-news-nz-ai-strategy-2026-07-21",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-ai-data-centre-trust-2026-07-27",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-green-ai-moratorium-2026-07-27",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-courts-ai-guidelines-2026-07-27",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-nzdf-ai-sovereignty-2026-07-28",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-ai-boom-environment-security-2026-07-28",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-parliament-ai-rules-2026-07-28",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-hyperscale-ai-factory-2026-07-29",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-schools-ai-framework-2026-07-29",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-parliament-ai-data-sovereignty-2026-07-29",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-ai-boom-digital-sovereignty-2026-07-30",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-classroom-ai-critical-thinking-2026-07-30",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-news-ai-cartels-2026-07-31",
+      "to": "tpm-core"
+    },
+    {
+      "from": "live-kin-oha-ceo-search-2026-07-31",
+      "to": "kin-hawaii"
     }
   ]
 }
